@@ -1,0 +1,16 @@
+{
+    //Aquest document i el settings els he fet amb IA perque hi havia problemes amb la ñ, el settings es per no tindre de posar chcp 65001 cada vegada que s'obre el terminal i el launch es perque el programa llegeixi i escrigui en UTF-8, independentment de com estigui configurat el terminal. 
+    
+    
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EncriptacioPolH",
+            "request": "launch",
+            "mainClass": "EncriptacioPolH",
+            "vmArgs": "-Dstdin.encoding=UTF-8 -Dstdout.encoding=UTF-8"
+        }
+    ]
+}
