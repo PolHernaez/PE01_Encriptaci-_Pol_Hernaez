@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProgramaPrincipalAES",
+            "request": "launch",
+            "mainClass": "ProgramaPrincipalAES",
+            "projectName": "PE01_EncriptacioPolH_dbba6c43"
+        },
+        {
+            "type": "java",
             "name": "EncriptacioPolH",
             "request": "launch",
             "mainClass": "EncriptacioPolH",

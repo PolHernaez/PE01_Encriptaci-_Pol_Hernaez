@@ -77,9 +77,10 @@ public class EncriptacioPolH {
     public void encriptar() {
 
         String missatge = llegirString("Quin missatge vols enviar?:");
-             String sortida="" ;
-        do {String clau = llegirString("CLAU:");
-         ClasseCriptografica c = new ClasseCriptografica(clau, missatge);
+        String sortida = "";
+        do {
+            String clau = llegirString("CLAU:");
+            ClasseCriptografica c = new ClasseCriptografica(clau, missatge);
             sortida = c.encripta(missatge, clau);
             System.out.println(sortida);
         } while (sortida.equals("Aquesta clau no és possible"));
@@ -87,10 +88,11 @@ public class EncriptacioPolH {
 
     public void desencriptar() {
         String missatge = llegirString("Quin missatge vols desencriptar?:");
-        
-        String sortida="" ;
-        do {String clau = llegirString("CLAU:");
-         ClasseCriptografica c = new ClasseCriptografica(clau, missatge);
+
+        String sortida = "";
+        do {
+            String clau = llegirString("CLAU:");
+            ClasseCriptografica c = new ClasseCriptografica(clau, missatge);
             sortida = c.desencripta(missatge, clau);
             System.out.println(sortida);
         } while (sortida.equals("Aquesta clau no és possible"));

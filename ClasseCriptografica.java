@@ -10,22 +10,6 @@ public class ClasseCriptografica {
         this.missatge = missatge;
     }
 
-    public String getMissatge() {
-        return missatge;
-    }
-
-    public void setMissatge(String missatge) {
-        this.missatge = missatge;
-    }
-
-    public String getClau() {
-        return clau;
-    }
-
-    public void setClau(String clau) {
-        this.clau = clau;
-    }
-
     private char[] Abecedari = {
             'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
             'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R',
@@ -122,11 +106,6 @@ public class ClasseCriptografica {
             }
         }
         return cadena;
-    }
-
-    @Override
-    public String toString() {
-        return "ClasseCriptografica [missatge=" + missatge + ", clau=" + clau + "]";
     }
 
     public String restaNum(int[] missatgeNum, String arrelStr) {
